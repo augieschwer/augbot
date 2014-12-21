@@ -16,5 +16,6 @@ This project is based on [https://github.com/groupme/bot-tutorial-nodejs](https:
 Open the file `.env` from your local files in your text editor of choice.
 
 BOT_ID = "YOUR BOT ID"
+
 BOT_NAME = "YOUR BOT NAME"
 

@@ -4,6 +4,11 @@
 
 This project is based on [https://github.com/groupme/bot-tutorial-nodejs](https://github.com/groupme/bot-tutorial-nodejs) .
 
+## Features:
+
+  * Ping/pong messages.
+  * Ackbar "It's a trap!" meme images.
+
 ## Requirements:
 
   * GroupMe account

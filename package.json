@@ -1,6 +1,6 @@
 {
   "name": "augbot",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "AugBot is a GroupMe NodeJS Callback Bot",
   "main": "index.js",
   "scripts": {

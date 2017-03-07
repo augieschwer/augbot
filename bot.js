@@ -1,5 +1,6 @@
 var HTTPS = require('https');
 var ackbar = require('./ackbar.js');
+var triggered = require('./triggered.js');
 
 var botID = process.env.BOT_ID;
 var botName = process.env.BOT_NAME;
@@ -10,6 +11,7 @@ function respond() {
 
   var pingRegex = new RegExp('^\\@?' + botName + ' ping', 'i');
   var ackbarRegex = /it[']?s a trap\b/i;
+  var triggeredRegex = /triggered\b/i;
 
   this.res.writeHead(200);
 
@@ -21,6 +23,10 @@ function respond() {
       console.log('got ' + request.text );
       var ackbar_url = ackbar();
       postMessage(ackbar_url);
+  } else if(triggeredRegex.test(request.text)) {
+      console.log('got ' + request.text );
+      var triggered_url = triggered();
+      postMessage(triggered_url);
   } else {
       console.log("don't care");
   }

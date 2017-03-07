@@ -8,6 +8,7 @@ This project is based on [https://github.com/groupme/bot-tutorial-nodejs](https:
 
   * Ping/pong messages.
   * Ackbar "It's a trap!" meme images.
+  * Triggered!
 
 ## Requirements:
 
